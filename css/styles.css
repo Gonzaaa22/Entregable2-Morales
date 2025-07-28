@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  background: #f9f9f9;
+}
+
+form {
+  margin-bottom: 1rem;
+}
+
+input {
+  margin: 0.5rem 0.25rem;
+  padding: 0.5rem;
+}
+
+button {
+  margin: 0.5rem 0.25rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+#lista-productos li {
+  padding: 0.25rem 0;
+}
+
+#resultado {
+  font-weight: bold;
+  margin-top: 1rem;
+}

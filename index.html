@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simulador de Precios</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main>
+    <h1>Simulador de precios</h1>
+
+    <section>
+      <form id="form-producto">
+        <input type="text" id="nombre" placeholder="Nombre del producto" required />
+        <input type="number" id="precio" placeholder="Precio" required />
+        <button type="submit">Agregar producto</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Carrito</h2>
+      <ul id="lista-productos"></ul>
+    </section>
+
+    <section>
+      <button id="btn-efectivo">Calcular total (efectivo)</button>
+      <button id="btn-tarjeta">Calcular total (tarjeta)</button>
+      <p id="resultado"></p>
+    </section>
+  </main>
+
+  <script src="js/tarea.js"></script>
+</body>
+</html>
